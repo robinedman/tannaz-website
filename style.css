@@ -91,11 +91,12 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: #252525 /* scandium */
+  background-image: url("london.jpg");
+  background-size: cover;
 }
 
 h1, h2, h3, h4, p, span, a {
-  color: #E8E8EE;
+  color: #252525; /* scandium */;
 }
 
 
@@ -108,9 +109,11 @@ a:hover {
 }
 
 .Card {
-  width: 300px;
-  height: 200px;
+  width: 320px;
   text-align: center;
+  padding: 36px;
+
+  background-color: white;
 }
 
 .Card-title {
